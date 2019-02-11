@@ -1,0 +1,120 @@
+@media screen and (max-width: 500px) {
+
+    body{
+        text-align: center;
+    }
+
+    #welcome {
+        margin: 90px 20px;
+        height: 570px;
+        background-color: rgba(0, 0, 0, 0.09);
+        border-radius: 5px;
+        border-style: ridge;
+        border-color: rgb(35, 86, 134);
+    }
+    
+    h1{
+        color: rgb(35, 86, 134);
+        font-family: 'Bowlby One SC', cursive;
+        font-size: 35px;
+        margin: 20px;
+    }
+
+    #thinker {
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    form {
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+        margin-top: 50px;
+        display: block;
+        box-sizing: border-box;
+        
+
+    }
+
+    #user-name{
+      height: 27px;
+      text-align: inherit;
+    }
+
+    #lets-play{
+        border: none;
+        display: inline-block;
+        padding: 10px;
+        color: white;
+        background-color: rgb(35, 86, 134);
+        cursor: pointer;
+        width: 30%;
+    }
+
+    #categories {
+        font-family: 'Neucha', cursive;
+        color: rgb(72, 61, 139);
+    }
+
+    #main-headline {
+        color: rgb(72, 61, 139);
+        background-color: rgb(0, 0, 0, 0.07);
+    }
+
+    #greeting {
+        font-size: 27px;
+        height: 50px;
+    }
+
+    #europe-options, #latin-options{
+        border: none;
+        display: inline;
+        padding: 15px;
+        color: white;
+        background-color: rgb(72, 61, 139,0.8);
+        cursor: pointer;
+    }
+
+    #E-questions, #L-questions {
+        font-family: 'Itim', cursive;
+        margin: 15px;
+        font-size: 20px;
+        color: rgb(72, 61, 139,0.8);
+
+    }
+
+    p{
+        font-weight: bold;
+        font-family: 'Share Tech Mono', monospace;
+    }
+
+    .go-to-results, #go-to-categories, #go-to-home{
+        border: none;
+        display: inline;
+        padding: 15px;
+        color: white;
+        background-color: rgb(72, 61, 139,0.8);
+        cursor: pointer;
+    }
+
+    .and{
+        background-color: rgb(0, 0, 0, 0.05);
+        border-radius: 10%;
+        padding: 10%;
+    }
+
+    #photo {
+        width: 325px;
+    }
+
+    #ending{
+        color: rgb(72, 61, 139);
+        font-family: 'Neucha', cursive;
+    }
+
+    #sentence{
+        margin: 20px;
+        padding: 7%;
+        border-radius: 5%;
+        background-color: rgb(0, 0, 0, 0.04)
+    }
+};
