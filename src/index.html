@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>La Trivia</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Indie+Flower|Itim|Neucha|Share+Tech+Mono|Unica+One" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-</head>
-<body>
-    <section id="welcome">
-        <h1>TRIVIA FILOSÓFICA</h1>
-        <figure>
-            <img id="thinker" src="./imgs/socrates.jpg" alt="Main Thinker">
-        </figure>
-        <form>
-            <label for="user-name" class="question">¿Cómo te llaman?</label>
-            <input type="text" id="user-name" placeholder="Ingresa tu nombre"><br><br>            <input type="button" id="lets-play" value="¡JUGAR!">
-        </form>
-    </section>
+    <head>
+        <meta charset="utf-8" />
+        <title>La Trivia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Indie+Flower|Itim|Neucha|Share+Tech+Mono|Unica+One" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    </head>
+    <body>
+        <section id="welcome">
+            <div>
+                <h1>TRIVIA FILOSÓFICA</h1>
+            </div>
+            <figure>
+                <img id="thinker" src="./imgs/socrates.jpg" alt="Main Thinker">
+            </figure>
+            <form>
+                <label for="user-name" class="question">¿Cómo te llaman?</label>
+                <input type="text" id="user-name" placeholder="Ingresa tu nombre">
+                <input type="button" id="lets-play" value="¡JUGAR!">
+            </form>
+        </section>
 
-    <h1 id="main-headline">TRIVIA FILOSÓFICA</h1>
-    <section id="categories">
-        <figure>
-            <img class="thinkers" src="./imgs/nietzsche.jpg" alt="Dragon Thinker">
-        </figure>
-        <div id="greeting">
-        </div>
-        <div>
-        <p>Escoge tu categoría: </p>
-        <input type="button" id="europe-options" value="EUROPA">
-        <input type="button" id="latin-options" value="LATINOAMÉRICA">
-        </div>
-    </section>
+        <header>
+            <h1 id="main-headline">TRIVIA FILOSÓFICA</h1>
+        </header>
+    
+        <section id="categories">
+            <figure>
+                <img class="thinkers" src="./imgs/nietzsche.jpg" alt="Dragon Thinker">
+            </figure>
 
-    <section id="E-questions">
-    </section>
+            <div id="greeting">
+            </div>
 
-    <section id="L-questions"></section>
+            <div>
+            <p>Escoge tu categoría: </p>
+            <input type="button" id="europe-options" value="EUROPA">
+            <input type="button" id="latin-options" value="LATINOAMÉRICA">
+            </div>
+        </section>
 
-    <section id="results">
-    </section>
+        <section id="E-questions">
+        </section>
+
+        <section id="L-questions">
+        </section>
+
+        <section id="results">
+        </section>
 
     <script src="index.js"></script>
 </body>
